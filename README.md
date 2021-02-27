@@ -15,3 +15,7 @@ docker run -it xiaomingren/mycentos:v0.1 /bin/bash
 譬如： docker commit -m "test v0.2" 64039bb3f2f1 xiaomingren/mycentos:v0.2
 ## 4. 上传镜像：(tag 镜像的时候，要加上自己docker hub 的用户名,要不然push会失败) 
 docker push xiaomingren/mycentos:v0.2
+
+# 引用地址
+- [1] [wenet](https://github.com/mobvoi/wenet)
+- [2] [silero-vad](https://github.com/snakers4/silero-vad)
